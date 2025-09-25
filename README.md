@@ -18,6 +18,8 @@ JupyterLite is being tested against modern web browsers:
 - Firefox 90+
 - Chromium 89+
 
+See the JupyterLite Readme for more details. The changes to the scripts and data created will be hosted in your web browser as detailed in their documentation. To reset changes for Google Chrome, open the web developer tools (F12), go to the Application tab, select Storage and then select Clear Site Data when you have the jupyterlite project open. You will then need to close and reopen the deployment of modflow-flopy-intro-deployment to access the original version.
+
 ## MODFLOW Exercises 
 
 The MODFLOW groundwater modeling exercises within are based on those from Hill and Tiedeman 2007. These are the same exercises with training completed in ModelMuse to provide a Graphical User Interface (GUI) experience. However, in this case the user will use pre-built jupyter notebooks to step through the code chunks to load data and write the various MODFLOW packages required to run a model. The goal is to provide an alternate approach for the user to develop MODFLOW models with tools, e.g., python and jupyter, that support the ready data analysis required to pre-process time series and spatial data.
